@@ -1,0 +1,27 @@
+{
+  "name": "Telegram Gifts Auto-buyer",
+  "title": "Gifts Buyer",
+  "version": "2025.7.1 (81)",
+  "description": "A Telegram user-bot that automatically buys new gifts, both limited and non-limited. Very flexible setup.",
+  "release_date": "06.06.2025",
+  "publisher": {
+    "name": "Meow",
+    "contact": {
+      "github": "https://github.com/meow/",
+      "telegram": "https://t.me/meow",
+      "website": "https://meow.dev/"
+    }
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/meow/Gifs-buyer",
+    "git_url": "https://github.com/meow/Gifs-buyer.git"
+  },
+  "dependencies": {
+    "install": "pip install -r requirements.txt"
+  },
+  "license": "MIT",
+  "scripts": {
+    "start": "python main.py"
+  }
+}
